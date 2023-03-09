@@ -1,0 +1,88 @@
+<!DOCTYPE html>   <!--this standard format is called boiler code -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">   <!--This comes in description while searching-->
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="3">    <!--refreshes the page after every 3 seconds-->
+  <title>The Cheat Sheet</title>
+</head>
+<body>
+  <b>This text is bold<br></b>
+  <strong>This text is important!<br></strong>
+  <i>This text is italic<br></i>
+  <em>This text is emphasized<br></em>
+  <small>This is some smaller text.</small>
+  <p>Do not forget to buy <mark>milk</mark> today.</p>
+  <p>My favorite color is <del>blue</del> red.</p>
+  <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+  <p>This is <sub>subscripted</sub> text.</p>
+  <p>This is <sup>superscripted</sup> text.</p>
+
+  <ul>
+    <li>This is an unordered list without numbers
+           <ul>
+              <li>this indented list has to be written with in the li tag of the main list</li>
+           </ul>
+    </li>
+  </ul>
+
+  <dl>
+  <dt>This is a descriptive list</dt>
+      <dd>this is without bullet points</dd>
+  <dt>Just another text</dt>
+      <dd>this describes the above point</dd>
+  </dl>
+
+  <!--ALL ABOUT REFERENCE TAGS-->
+  <a href="https://www.autodraw.com/">press the link to reach the site</a>
+
+  <!--TABLES-->
+  <table border="1">
+      <thead>
+         <tr bgcolor="grey">
+         <th>Main</th>
+         <th>Body</th>
+            </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>body</td>
+          <td>part</td>
+          <td><form>
+           <input type="radio" id="html" name="fav_language" value="HTML">
+           <label for="html">HTML</label><br>
+           <input type="radio" id="css" name="fav_language" value="CSS">
+           <label for="css">CSS</label><br>
+           <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+           <label for="javascript">JavaScript</label>
+          </form></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+        <td>footar</td>
+        <td>part</td>
+          <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> I have a bike</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> <!-- attributes of input checked,disabled,max,min,maxlength,readonly,required,size,step,value-->
+              <label for="vehicle2"> I have a car</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> I have a boat</label><br><br>
+              <input type="submit" value="Submit"></td>
+        </tr>
+      </tfoot>
+  </table>
+  <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+
+</body>
+</html>
+
