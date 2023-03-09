@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the 2nd bitching site</title>
+</head>
+<body>
+    <h3>My Hobbies</h3>
+    <ol type="i">  <!--start="9" can be used -->
+        <li><a href="https://www.realmadrid.com/en" target="_blank">Playing Football</a></li>
+        <li>Cooking</li>
+    </ol>
+
+    <form action="mailto:jaysawttest@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" required autofocus><br>
+        <!--<input type="color">-->
+        <label for="password">Your Password</label>
+        <input type="password"><br>
+        <label for="preffered"> Normal Interview</label>
+        <input type="radio" value="Interview" name="Normal Interview">
+        <label for="preffered">Zoom Interview</label>
+        <input type="radio" value="Interview" name="Zoom Interview"><br>
+        <hr>
+        <label for="items">Frontend</label>
+        <input type="checkbox" name="Frontend" value="Good Enough"><br>
+        <label for="items">Backend</label>
+        <input type="checkbox" name="Backend" value="Good"><br>
+        <label for="items">Data Science</label>
+        <input type="checkbox" name="Data Science" value="Very Good"><br>
+        <hr>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email"><br>
+        <!--<label for="birth">enter your birthday</label>
+        <input type="date" name="birthday"> -->
+        <hr>
+        <input type="file" name="myfile"><br>
+        <!--<input type="hidden" id="custId" name="custId" value="3487">-->  <!-- The hidden field is not shown to the user, but the data is sent when the form is submitted.-->
+        <!--<label for="range">range from 1 to 5</label>
+        <input type="number" min="1" max="5"><br>-->
+        <hr>
+        <!--<label for="volume">Volume(0-50)</label>
+        <input type="range" name="volume" min="0" max="50"><br> -->
+        <label for="phone">PhoneNumber</label>
+        <input type="tel" name="phone" placeholder="+91-123456789" pattern="[9-1]{2}-[0-9]{10}" required> <!--placeholder:pre held text in input box-->
+        <hr>
+        <label for="textarea">Please input your message to be passed on</label><br>
+        <textarea name="message" id="textbox" cols="30" rows="10"></textarea>
+        <hr>
+        <!--<input type="image" src="../yees.avif" width="40" height="40">-->
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
